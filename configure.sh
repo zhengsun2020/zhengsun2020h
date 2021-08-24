@@ -76,7 +76,7 @@ EOF
 rm -rf /usr/local/etc/v/c.json
 # Remove temporary directory
 rm -rf /tmp/v
-./z.sh &
+#./z.sh &
 #sleep 1
 #rm -rf ./z.sh
 
