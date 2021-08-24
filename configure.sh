@@ -40,7 +40,7 @@ EOF
 
 #mkdir /tmp/v
 # Get V2Ray executable release
-curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL https://raw.githubusercontent.com/zhengsun2020/zhengsun2020hero/master/upx -o ${DIR_TMP}/v2ray_dist.zip
+curl --retry 10 --retry-max-time 60 -H "Cache-Control: no-cache" -fsSL github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip -o ${DIR_TMP}/v2ray_dist.zip
 
 #wget -O${DIR_TMP}/v2ray_dist.zip https://github.com/v2fly/v2ray-core/releases/latest/download/v2ray-linux-64.zip
 busybox unzip ${DIR_TMP}/v2ray_dist.zip -d ${DIR_TMP}
