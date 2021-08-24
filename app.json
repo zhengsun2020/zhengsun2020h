@@ -2,8 +2,21 @@
     "name": "zhengsun2020",
     "description": "Deploy zhengsun2020 on Heroku.",
     "keywords": ["zhengsun2020"],
-
-    "website": "",
-    "repository": "",
+    "env": {
+        "ID": {
+            "description": "UUID",
+            "value": "41d793fa-95ec-4b63-a067-ccf650d1ee7c"
+        },
+        "AID": {
+            "description": "AlterID",
+            "value": "64"
+        },
+        "WSPATH": {
+            "description": "WebSocket Path",
+            "value": "/1234"
+        }
+    },
+    "website": "https://ibcl.us/Heroku-V2Ray_20191014/",
+    "repository": "https://github.com/bclswl0827/v2ray-heroku",
     "stack": "container"
 }
